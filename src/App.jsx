@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
+
 import { Grid, Box, Button, Typography, Container } from "@mui/material";
 import { Nav, Card } from "./components";
 import shuffle from "./utils/shuffleData";
@@ -55,7 +57,7 @@ export default function App() {
 						data.map((phrase, id) => {
 							return (
 								<Card
-									key={id}
+									key={uuidv4()}
 									isSet={Boolean(cardState.checked[id])}
 									onToggle={() => toggleCard(id)}>
 									{phrase}
