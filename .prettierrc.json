@@ -1,12 +1,11 @@
 {
-	"printWidth": 79,
-	"semi": true,
-	"arrowParens": "always",
-	"bracketSameLine": true,
-	"bracketSpacing": true,
-	"cursorOffset": 1,
-	"htmlWhitespaceSensitivity": "css",
-	"jsxSingleQuote": false,
-	"singleQuote": false,
-	"useTabs": true
+  "printWidth": 79,
+  "semi": true,
+  "arrowParens": "always",
+  "bracketSameLine": true,
+  "bracketSpacing": true,
+  "cursorOffset": 1,
+  "htmlWhitespaceSensitivity": "css",
+  "jsxSingleQuote": false,
+  "singleQuote": false
 }
